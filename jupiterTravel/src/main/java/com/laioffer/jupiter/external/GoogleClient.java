@@ -20,7 +20,7 @@ import java.util.*;
 //根據Twitch API要求，提出請求
 
 public class GoogleClient {
-    private static final String GOOGLE_API_KEY = "AIzaSyAtiuQLx-WDx9BHkunZ6Ltvh7EEeKzm-P0";
+    private static final String GOOGLE_API_KEY = "xxx";
     private static final String LOCATION_SEARCH_URL_TEMPLATE = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=tourist_attraction+in+%s&key=%s";
 
 //R01:Get Twitch Game search URL => 發送請求前，確定目的地網址 (原網址格式是由上面的search template為基礎，透過 String.format,取代%s)。
